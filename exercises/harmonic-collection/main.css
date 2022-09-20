@@ -1,0 +1,22 @@
+body  {
+  background:#f2ebeb;
+  color: #d6625a;
+  font-size:8pt;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+
+.myclass {
+  font-family: 'Space Mono', monospace;
+  font-size:50pt;
+  letter-spacing: -10px;
+}
+
+.myclass2 {
+  color: #b8463e;
+  text-decoration: wavy underline;
+  text-decoration-thickness: .5px;
+  text-underline-offset: 2px
+}
