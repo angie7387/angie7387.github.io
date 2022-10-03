@@ -1,6 +1,8 @@
 body  {
-  background:#f2ebeb;
-  color: #d6625a;
+  background: rgb(240,240,240);
+  background: linear-gradient(0deg, #EBEBEB 0%, rgba(254,255,255,1) 75%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-size:8pt;
   font-family: 'Roboto Mono', monospace;
   letter-spacing: -1px;
@@ -15,7 +17,7 @@ body  {
 }
 
 .myclass2 {
-  color: #b8463e;
+  color: black;
   text-decoration: wavy underline;
   text-decoration-thickness: .5px;
   text-underline-offset: 2px
