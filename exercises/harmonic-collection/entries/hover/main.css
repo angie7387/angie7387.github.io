@@ -50,6 +50,16 @@ body  {
 
 }
 
+.text7 {
+  font-size:6pt;
+  font-family: 'Roboto Mono';
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: black;
+  position: bottom;
+
+}
+
 /* shake shake shake! */
 
 .shake {
@@ -211,11 +221,11 @@ transform: rotate(-15deg);
 .backpack {
   -webkit-filter: drop-shadow(-10px 10px 6px #ccc);
   filter: drop-shadow(-10px 10px 6px #ccc);
-  position: right;
+  position;
   rotate: 180deg;
   width: 810px;
   height: 810px;
-  left: 800px;
+  left: 600px;
   top: 800px;
   animation: shake 1s;
   animation-fill-mode: forwards;
