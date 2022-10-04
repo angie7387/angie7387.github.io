@@ -1,6 +1,5 @@
 body  {
-  background: rgb(240,240,240);
-  background: linear-gradient(0deg, #EBEBEB 0%, rgba(254,255,255,1) 75%);
+  background: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-size:8pt;

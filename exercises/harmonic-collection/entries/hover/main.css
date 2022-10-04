@@ -229,6 +229,7 @@ transform: rotate(-15deg);
   top: 800px;
   animation: shake 1s;
   animation-fill-mode: forwards;
+  white-space: nowrap;
 }
 
 @keyframes shake {
