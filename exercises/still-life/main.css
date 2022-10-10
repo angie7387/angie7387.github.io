@@ -1,0 +1,135 @@
+body {
+}
+
+
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: #579093;
+  border: solid 1px black;
+}
+
+.cylinder {
+	position: relative;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+	margin: 0 auto;
+	width: 100px;
+	height: 150px;
+	border-radius: 50px/25px;
+  border-bottom: 0.6rem solid #ccc;
+	background-color: #F1F1F1;
+}
+
+.cylindertop {
+  position: relative;
+  top: 4%;
+  left: 6%;
+  height: 40px;
+  width: 90px;
+  background-color: white;
+  border-radius: 50%;
+  border-bottom: 0.2rem solid #CFCFCF; 50%;
+}
+
+.wick {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  width: 50%;
+  height: 67%;
+  width: 2px;
+  height: 10px;
+  background: black;
+}
+
+.bowl {
+  position: relative;
+  top: 300%;
+  left: -450%;
+  height: 67%;
+  width: 200px;
+  height: 100px;
+  background: #1D1C1C;
+  border-radius: .2rem .2rem 3rem  3rem;
+  border-bottom: 0.6rem solid #000000;
+  z-index: 1;
+}
+
+.fruit1 {
+  position: relative;
+  top: 50%;
+  left: -200%;
+  height: 60px;
+  width: 50px;
+  background-color: #FF7D00;
+  border-radius: 50%;
+  border-left: 0.5rem solid #BF6610; 50%;
+  z-index: 0;
+}
+
+.fruit2 {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: #F23333;
+  border-radius: 50%;
+  border-left: 0.5rem solid #AC3636; 50%;
+  z-index: 0;
+}
+
+.stem {
+  position: relative;
+  top: -10%;
+  left: 47%;
+  width: 5px;
+  height: 12px;
+  background: #5F3D3D;
+  z-index: 0;
+}
+
+.leaf {
+  position: relative;
+  top: -50%;
+  left: -400%;
+	width: 20px;
+	height: 20px;
+	border-radius: 0 70px;
+	background-color: #5C7742;
+	transform: rotate(0deg);
+  z-index: 1;
+}
+
+.base {
+  position: relative;
+  top: -450%;
+  left: -1100%;
+  height: 150px;
+  width: 150px;
+  background-color: #F0D93D;
+  border-radius: 50%;
+  border-left: 0.6rem solid #CEB929;
+  z-index: -2;
+}
+
+.cylinder2 {
+	position: relative;
+  top: -50%;
+  left: -2%;
+  width: 50%;
+  height: 67%;
+	margin: 0 auto;
+	width: 50px;
+	height: 100px;
+	border-radius: 50px/25px;
+  border-left: 0.6rem solid #CEB929;
+	background-color: #F0D93D;
+}

@@ -258,6 +258,7 @@ transform: rotate(-15deg);
   95% { transform: translate(3px, 5px) rotate(0deg);}
   100% {opacity: .6;}
   100% { -webkit-filter: blur(3px);}
+  100% { transform: translate(0px, 0px) rotate(-1deg);}
 }
 
 .done {
