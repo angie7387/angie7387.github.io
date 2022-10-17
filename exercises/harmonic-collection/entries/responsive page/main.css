@@ -1,0 +1,25 @@
+body {
+  background: radial-gradient(50% 50% at 50% 50%, #FFA68A 0%, #6D4444 46.87%, #1E1E1E 100%);;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'EB Garamond', serif;
+  padding: 50px;
+  min-width: 320px;
+  max-width: 1024px;
+  margin: 0 auto;
+  column-count: 2;
+  column-gap: 10px;
+}
+
+@media screen (min-width: 801px) and (max-width: 1000px){
+  h1 {color: red; font-size: 200px;}
+}
+
+@media screen (min-width: 601px) and (max-width: 800px){
+  h1 {color: yellow; font-size: 100px;}
+}
+
+@media screen and (min-width: 401px)and (max-width: 600px){
+  h1 {color: blue; font-size: 10px;}
+}
