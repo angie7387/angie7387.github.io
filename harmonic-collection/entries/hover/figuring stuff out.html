@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style id="compiled-css" type="text/css">
+a {<!--from   www.j av a 2  s .c om-->
+   display:inline-block;
+   overflow:hidden;
+   position:relative;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.outer {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: 1px solid #000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.inner {
+  width: 800px;
+  height: 200px;
+  cursor: pointer;
+  display: block;
+  background: url(http://lorempixel.com/400/400/) 0 0, url(http://lorempixel.com/300/300/) 200px 0, url(http://lorempixel.com/500/500/) 400px 0, url(http://lorempixel.com/600/600/) 600px 0;
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.outer:hover .inner,
+.outer:focus .inner {
+  animation: swap 8s linear infinite;
+}
+
+.outer:focus {
+  border: 2px solid red;
+}
+
+@keyframes swap {
+  0% {
+    transform: translate3d(0, 0, 0)
+  }
+  50% {
+    transform: translate3d(-600px,0, 0)
+  }
+  100% {
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+
+
+}
+</style>
+ </head>
+ <body>
+  <a href="/">
+   <div class="play"></div> <img class="img" src="https://www.java2s.com/style/demo/InternetExplorer.png"> <br> <b>Lorem ipsu</b> </a>
+ </body>
+</html>
