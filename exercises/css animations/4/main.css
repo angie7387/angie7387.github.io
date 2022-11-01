@@ -1,0 +1,26 @@
+.shape {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: pink;
+  animation-name: shape;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin: 100px;
+}
+
+@keyframes shape {
+  0% {
+    left: 100px;
+    top: 0px;
+  }
+  50% {
+    left: 800px;
+    top: 0px;
+  }
+  100% {
+    left: 800px;
+    top: 500px;
+  }
+}

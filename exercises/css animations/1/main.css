@@ -1,0 +1,18 @@
+body  {
+  animation-name: colors;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+  0% {
+    background: red;
+  }
+  60% {
+    background: yellow;
+  }
+  100% {
+    background: green;
+  }
+}

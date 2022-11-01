@@ -1,0 +1,37 @@
+body  {
+background-color: white;
+}
+
+.shape1 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: pink;
+  animation-name: shape;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin: 100px;
+}
+
+.shape2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: red;
+  animation-name: shape;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin: 200px;
+}
+
+@keyframes shape {
+  0% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(2);
+  }
+  100% {
+    background: scale(0.5);
+  }
+}

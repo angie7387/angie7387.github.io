@@ -1,0 +1,26 @@
+.shape {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: blue;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin: 100px;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0%
+  }
+  50% {
+    opacity: 100%
+  }
+  75%% {
+    opacity: 100%
+  }
+  100% {
+    opacity: 0%
+  }
+}
