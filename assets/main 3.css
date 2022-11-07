@@ -195,9 +195,9 @@ width: 100px;
 
 .boxskewoutside2 {
   position: fixed;
-  top: 560px;
+  top: 602px;
   left: 740px;
-  width: 300px;
+  width: 400px;
 	height: 170px;
 	transform: skew(0deg, 40deg);
   background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(255,255,255,0.3) 100%);
@@ -233,8 +233,8 @@ width: 100px;
 
 .boxskewinside2 {
   position: fixed;
-  top: 553px;
-  width: 300px;
+  top: 595px;
+  width: 400px;
 	height: 200px;
   left: 1056px;
 	transform: skew(0deg, 40deg);
@@ -245,8 +245,8 @@ width: 100px;
 
 .boxfront2 {
   position: fixed;
-  top: 690px;
-  left: 1070px;
+  top: 770px;
+  left: 1170px;
   width: 280px;
 	height: 149px;
   background: magenta;
@@ -336,5 +336,22 @@ width: 100px;
 }
 
 .page52:hover {
+  transform: translate(0, -20px);
+}
+
+.page62 {
+  position: fixed;
+  background: magenta;
+  top: 650px;
+  left: 1050px;
+  width: 300px;
+  height: 190px;
+  border: 1px solid #463C3C;
+  z-index: 2;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.page62:hover {
   transform: translate(0, -20px);
 }
