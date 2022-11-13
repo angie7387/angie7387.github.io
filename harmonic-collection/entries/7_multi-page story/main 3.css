@@ -1,0 +1,146 @@
+body  {
+  background-color: #1E1E1E;
+  padding: 50px;
+}
+
+h1 {
+  font-family: 'BhuTuka Expanded One', cursive;
+  font-size: 16pt;
+  color: white;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+a {
+  color: black;
+}
+
+.lyrics {
+  margin-top: 100px auto;
+  margin-left: ;
+  transform: skewX(5deg);
+  rotate: -3deg;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid #1E1E1E;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: scroll;
+}
+
+.disc {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  left: 500px;
+  bottom: 100px;
+  width: 500px;
+  height: 500px;
+  animation-name: spin;
+-webkit-animation: rotating 1.5s linear infinite;
+}
+
+.back {
+  position: fixed;
+  margin-bottom: 5px;
+  margin-left: 5px;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-size: 14px;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: underline;
+}
+
+.player {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  left: 550px;
+  rotate: 3deg;
+  bottom: 100px;
+  height: 500px;
+  z-index: -1;
+
+}
+audio {
+  z-index: 3;
+  position: absolute;
+  margin: auto;
+  top: 300px;
+  right: 0px;
+  left: 500px;
+}
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+      transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+.player {
+  top:300px;
+  left: -50px;
+  scale: 0.5;
+}
+
+.disc {
+  top:300px;
+  left: 25px;
+  scale: 0.5;
+}
+
+.lyrics {
+width: 300px;
+height: 200px;
+font-size: 12px;
+background-color: #1E1E1E;
+color: white;
+}
+
+audio {
+  z-index: 3;
+  position: absolute;
+  margin: auto;
+  top: 425px;
+  right: 0px;
+  left: 50px;
+  scale: 0.75;
+}
+  body {background-color: #601818;}
+}

@@ -1,0 +1,124 @@
+body  {
+  background-color: #1E1E1E;
+  padding: 50px;
+}
+
+h1 {
+  font-family: 'BhuTuka Expanded One', cursive;
+  font-size: 16pt;
+  color: white;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+a {
+  color: black;
+}
+
+.back {
+  position: fixed;
+  margin-bottom: 5px;
+  margin-left: 5px;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-size: 14px;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: underline;
+}
+
+.disc1 {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 500px;
+  right: 0;
+  margin: auto;
+  rotate: 7deg;
+  width: 500px;
+  height: 500px;
+  z-index: 2;
+}
+
+.disc2 {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  rotate: 0deg;
+  width: 500px;
+  height: 500px;
+  z-index: 1;
+}
+
+.disc3 {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: -200px;
+  right: 0;
+  margin: auto;
+  rotate: -7deg;
+  width: 500px;
+  height: 500px;
+  z-index: 0;
+}
+
+.container {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  rotate: 3deg;
+  transform: skewX(10deg);
+}
+
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg a {
+  display:block;
+}
+.tg td{border-color:#1E1E1E;border-style:solid;border-width:1px;font-family: 'Source Code Pro', monospace;
+font-size: 22px;
+font-weight: 400;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:#1E1E1E;border-style:solid;border-width:1px;font-family: 'Source Code Pro', monospace;
+font-size: 22px;
+font-weight: 400;;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}
+
+
+@media (max width: 1440px) {
+  h1 {font-size: 18px; font-style: normal; font-weight: normal; text-align: left; line-height: 30px;}
+  h2 {font-size: 12px; font-style: normal; font-weight: normal; text-align: center;}
+  p {font-size: 12px; line-height: 50px;}
+  body {column-count: 3;}
+  .example {padding: 10px; display: block;}
+}
+
+@media (max-width: 768px) {
+
+  .tg .tg-kftd{background-color:#1E1E1E;text-align:left;vertical-align:top; color: white;}
+  body {background-color: #601818;}
+  .tg td {border-color: white;}
+  .tg th{border-color: white;}
+  a {color: white;}
+
+}
+
+@media (max-width: 480px) {
+  h1 {font-size: 36px; font-style: normal; font-weight: normal;letter-spacing: 2px;}
+  h2 {font-size: 16px; text-align: center;}
+  p {font-size: 12pt; line-height: 28px; text-align: left;}
+  body {padding: 100px; column-count: 1;}
+  .example {display: block; padding: 10px;}
+}

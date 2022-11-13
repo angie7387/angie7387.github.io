@@ -3,7 +3,7 @@ body  {
 background-color: yellow;
 margin:100px;
 font-family: 'DM mono', monospace;
-font-size: 11pt;
+font-size: 16pt;
 }
 
 
@@ -12,7 +12,7 @@ a {
 }
 
 .zoom {
-  zoom: 75%;
+  zoom: 60%;
 }
 
 .folder {
@@ -46,9 +46,9 @@ width: 100px;
 
 .boxskewoutside {
   position: fixed;
-  top: 560px;
+  top: 603px;
   left: 140px;
-  width: 300px;
+  width: 400px;
 	height: 170px;
 	transform: skew(0deg, 40deg);
   background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(255,255,255,0.3) 100%);
@@ -84,8 +84,8 @@ width: 100px;
 
 .boxskewinside {
   position: fixed;
-  top: 553px;
-  width: 300px;
+  top: 595px;
+  width: 400px;
 	height: 200px;
   left: 456px;
 	transform: skew(0deg, 40deg);
@@ -96,8 +96,8 @@ width: 100px;
 
 .boxfront {
   position: fixed;
-  top: 690px;
-  left: 470px;
+  top: 775px;
+  left: 570px;
   width: 280px;
 	height: 149px;
   background: blue;
@@ -187,6 +187,23 @@ width: 100px;
 }
 
 .page5:hover {
+  transform: translate(0, -20px);
+}
+
+.page6 {
+  position: fixed;
+  background: cyan;
+  top: 650px;
+  left: 450px;
+  width: 300px;
+  height: 190px;
+  border: 1px solid #463C3C;
+  z-index: 2;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.page6:hover {
   transform: translate(0, -20px);
 }
 
@@ -353,5 +370,22 @@ width: 100px;
 }
 
 .page62:hover {
+  transform: translate(0, -20px);
+}
+
+.page72 {
+  position: fixed;
+  background: cyan;
+  top: 700px;
+  left: 1100px;
+  width: 300px;
+  height: 190px;
+  border: 1px solid #463C3C;
+  z-index: 2;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.page72:hover {
   transform: translate(0, -20px);
 }
