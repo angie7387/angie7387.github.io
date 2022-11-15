@@ -98,10 +98,6 @@ font-weight: 400;;
 
 
 @media (max width: 1440px) {
-  h1 {font-size: 18px; font-style: normal; font-weight: normal; text-align: left; line-height: 30px;}
-  h2 {font-size: 12px; font-style: normal; font-weight: normal; text-align: center;}
-  p {font-size: 12px; line-height: 50px;}
-  body {column-count: 3;}
   .example {padding: 10px; display: block;}
 }
 
